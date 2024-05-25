@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const isGithubPages = process.env.GITHUB_PAGES || false;
-const repoName = "meu-primeiro-molde";
+const repo = "meu-primeiro-molde";
 const nextConfig = {
   reactStrictMode: true,
   output: "export",
